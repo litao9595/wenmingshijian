@@ -1,5 +1,5 @@
 const hot="http://220.167.111.216:4847/common-web/";
-const userInfoUrl="http://h5.cnncw.cn:8073/";//蓬安两微一端
+const userInfoUrl="http://h5.cnncw.cn:8073/";
 let config={
   findAllTypeByCondition:hot+'a/volunteerActivity/findAllTypeByCondition',//1预算经费来源类型, 4服务对象, 2志愿者保障, 3招募要求
   findAreaNameAndValue:hot+'a/data/findAreaNameAndValue',//服务区域
