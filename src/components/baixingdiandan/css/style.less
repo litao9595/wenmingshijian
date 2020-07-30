@@ -1,0 +1,160 @@
+@bgcolro:#f5f5f5;
+.border-radius(@val:0.2rem){
+  border-radius: @val;
+  -webkit-border-radius: @val;
+  -moz-border-radius: @val;
+}
+.box-shadow(@color:#ccc,@size:0.1rem){
+  box-shadow: 0rem 0rem @size @color;
+  -webkit-box-shadow: 0rem 0rem @size @color;
+  -moz-box-shadow: 0rem 0rem @size @color;
+}
+.display-felx{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.baixindiandan-box{
+  background:url("../../image/bxdd-banner.png") no-repeat,@bgcolro;
+  background-size: 100% auto;
+  position: fixed;
+  left: 0rem;
+  top:0rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 3rem;
+}
+.baixindiandan-box .bxdd-main{
+  padding: 0.3rem;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+.baixindiandan-box .bxdd-main .bxdd-content{
+  background: #fff;
+  padding: 0.2rem;
+  box-sizing: border-box;
+  height: 100%;
+  .border-radius();
+}
+.baixindiandan-box{
+  .bxdd-main{
+    .bxdd-content{
+      .scl-y{
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+      }
+      .list-box{
+        overflow: hidden;
+        li{
+          padding: 0.2rem;
+          box-sizing: border-box;
+          float: left;
+          width: 3.1rem;
+          overflow: hidden;
+          margin-bottom: 0.3rem;
+          .box-shadow();
+          .border-radius();
+          .img-box{
+            height: 3rem;
+            overflow: hidden;
+            img{
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          .txt{
+            font-size: 0.3rem;
+            line-height: 0.4rem;
+            height: 0.4rem;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            margin-top: 0.1rem;
+          }
+        }
+        li:nth-child(2n-1){
+          margin-right: 0.3rem;
+        }
+      }
+    }
+  }
+}
+/*点单详情*/
+.diangdan-box{
+  background: @bgcolro;
+  .diangdan-main{
+    padding: 0.3rem;
+    .diangdan-top{
+      background: #fff;
+      .border-radius();
+      .img-box{
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+      .txt-box{padding: 0.2rem}
+      .title-box{
+        .display-felx();
+        align-items: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        margin-bottom: 0.2rem;
+        .left{font-size: 0.35rem; margin-right: 0.3rem}
+        .right{
+          font-size: 0.2rem;
+          color: #999;
+          .icon-box{
+            background: @bgcolro;
+            .border-radius();
+            line-height: 0.3rem;
+            height: 0.3rem;
+            padding: 0rem 0.2rem;
+            .zan{
+              font-size: 0.3rem;
+              float: left;
+            }
+            span{
+              float: left;
+              margin-left: 0.1rem;
+            }
+          }
+        }
+      }
+      .text-box{
+        font-size: 0.3rem;
+        line-height: 0.5rem;
+      }
+    }
+    .diangdan-bottom{
+      background: #fff;
+      margin: 0.3rem 0rem;
+      padding: 0.2rem;
+      .border-radius();
+      .title{
+        font-size: 0.35rem;
+      }
+      .text{font-size: 0.3rem}
+    }
+    .submit-btn{
+      background: #ff7070;
+      line-height: 0.8rem;
+      text-align: center;
+      color: #fff;
+      font-size: 0.35rem;
+      border-radius: 0.4rem;
+      -webkit-border-radius: 0.4rem;
+      -moz-border-radius: 0.4rem;
+    }
+    .submit-active-btn{
+      background: #ccc;
+      pointer-events: none;
+    }
+  }
+}

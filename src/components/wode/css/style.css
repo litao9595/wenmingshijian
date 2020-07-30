@@ -1,0 +1,262 @@
+.display-felx {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.align-items {
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+}
+.justify-content {
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+.mian-box {
+  padding: 0.3rem;
+  background: url("../../image/wode-banner.png") no-repeat left top, #f5f5f5;
+  background-size: 100% auto;
+}
+.mian-box .user-info {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+}
+.mian-box .user-info .left {
+  width: 1rem;
+  height: 1rem;
+  background: url("../../image/avatar-bg.png") no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+}
+.mian-box .user-info .left img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.mian-box .user-info .right {
+  font-size: 0.35rem;
+  color: #fff;
+  margin-left: 0.5rem;
+}
+.mian-box .user-information {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.mian-box .user-information li {
+  color: #fff;
+  text-align: center;
+}
+.mian-box .user-information li p {
+  font-size: 0.3rem;
+}
+.mian-box .user-information li div {
+  font-size: 0.2rem;
+}
+.mian-box .nav-box {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  color: #fff;
+  margin-top: 0.5rem;
+  font-size: 0.3rem;
+}
+.mian-box .nav-box li {
+  margin-right: 0.9rem;
+  box-sizing: border-box;
+  padding-bottom: 0.3rem;
+}
+.mian-box .nav-box .active {
+  border-bottom: solid 2px #ff5a44;
+}
+.mian-box .task-box {
+  margin-top: 0.3rem;
+}
+.mian-box .task-box .task-list {
+  padding: 0.2rem;
+  background: #fff;
+  margin-bottom: 0.3rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.mian-box .task-box .task-list .top-box {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.mian-box .task-box .task-list .top-box .label {
+  font-size: 0.2rem;
+  color: #cd6b68;
+  line-height: 0.5rem;
+  border: solid 1px #cd6b68;
+  padding: 0rem 0.2rem;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+}
+.mian-box .task-box .task-list .top-box .title-txt {
+  font-size: 0.35rem;
+  margin-left: 0.2rem;
+  line-height: 0.5rem;
+  width: 3.3rem;
+  height: 0.5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.mian-box .task-box .task-list .top-box .state-box {
+  font-size: 0.2rem;
+  color: #00bffe;
+  background: #ecf2ff;
+  line-height: 0.5rem;
+  padding: 0rem 0.2rem;
+  margin-left: 0.2rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+}
+.mian-box .task-box .task-list .bottom-box {
+  margin-top: 0.2rem;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+}
+.mian-box .task-box .task-list .bottom-box .left {
+  width: 5rem;
+}
+.mian-box .task-box .task-list .bottom-box .left .txt-p {
+  font-size: 0.3rem;
+}
+.mian-box .task-box .task-list .bottom-box .left-1 {
+  width: 5rem;
+}
+.mian-box .task-box .task-list .bottom-box .left-1 .txt-p {
+  font-size: 0.3rem;
+}
+.mian-box .task-box .task-list .bottom-box .right span {
+  display: block;
+  line-height: 0.5rem;
+  font-size: 0.3rem;
+  padding: 0rem 0.2rem;
+  background: #ff7900;
+  color: #fff;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+}
+.mian-box .task-box .task-list .bottom-box .right .comment-btn {
+  background: #43c3a0;
+}
+.mian-box .comment-poup {
+  position: fixed;
+  left: 0rem;
+  top: 0rem;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.mian-box .comment-poup .poup-main {
+  background: #fff;
+  padding: 0.3rem 0rem;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  width: 100%;
+}
+.mian-box .comment-poup .poup-main .poup-head {
+  font-size: 0.3rem;
+  padding: 0rem 0.2rem 0.2rem 0.2rem;
+  border-bottom: solid 1px #ccc;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+.mian-box .comment-poup .poup-main .poup-head span {
+  color: #ee5c5c;
+}
+.mian-box .comment-poup .poup-main .score-box {
+  text-align: center;
+}
+.mian-box .comment-poup .poup-main .fraction-box {
+  font-size: 0.3rem;
+  text-align: center;
+  color: #ee5c5c;
+}
+.mian-box .comment-poup .poup-main .score-textarea {
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.mian-box .comment-poup .poup-main .score-textarea textarea {
+  font-size: 0.3rem;
+  height: 3rem;
+  background: #f5f5f5;
+  border: none;
+  width: 100%;
+  padding: 0.3rem;
+  box-sizing: border-box;
+}
+.mian-box .comment-poup .poup-main .file-box .top {
+  font-size: 0.3rem;
+  line-height: 0.8rem;
+}
+.mian-box .comment-poup .poup-main .file-box .bottom {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.mian-box .comment-poup .poup-main .file-box .bottom li {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  margin-right: 0.3rem;
+}
+.mian-box .comment-poup .poup-main .file-box .bottom li .cols-btn {
+  font-size: 0.4rem;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  background: #000;
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+}
+.mian-box .comment-poup .poup-main .file-box .bottom .file-btn {
+  background: url('../../image/file.png') no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.mian-box .comment-poup .poup-main .file-box .bottom .file-btn .van-uploader {
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */

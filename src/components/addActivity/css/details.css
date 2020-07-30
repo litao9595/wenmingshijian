@@ -1,0 +1,135 @@
+.display-felx {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.details-box {
+  background: url("../../image/fwhd-banner.png") no-repeat left top, #f5f5f5;
+  background-size: 100% auto;
+  padding: 3.5rem 0.3rem 0.3rem 0.3rem;
+}
+.details-box .content-box {
+  background: #fff;
+  padding: 0.2rem;
+  margin-bottom: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.details-box .content-box .title-box {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+}
+.details-box .content-box .title-box .left {
+  font-size: 0.35rem;
+}
+.details-box .content-box .title-box .right {
+  font-size: 0.25rem;
+  margin-left: 0.3rem;
+  background: #ecf2ff;
+  color: #566eff;
+  padding: 0.05rem 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.details-box .content-box .text-box {
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+}
+.details-box .content-box .text-box span {
+  color: #ff8181;
+}
+.details-box .content-box .title-2 {
+  font-size: 0.35rem;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  border-left: solid 0.1rem #ff8181;
+  line-height: 0.4rem;
+  overflow: hidden;
+}
+.details-box .content-box .title-2 span {
+  display: block;
+  float: left;
+}
+.details-box .content-box .title-2 i {
+  display: block;
+  font-style: normal;
+  float: right;
+  color: #999999;
+  background: url("../../image/see.png") no-repeat right center;
+  background-size: auto 0.2rem;
+  padding-right: 0.4rem;
+}
+.details-box .content-box .biaoqian {
+  overflow: hidden;
+  padding-top: 0.2rem;
+}
+.details-box .content-box .biaoqian li {
+  float: left;
+  font-size: 0.25rem;
+  line-height: 0.5rem;
+  background: #668eff;
+  padding: 0rem 0.2rem;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  color: #fff;
+  margin-right: 0.2rem;
+}
+.details-box .content-box .volunteer-list {
+  padding: 0.2rem;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+.details-box .content-box .volunteer-list .avatar-box {
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  background: url("../../image/avatar-bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.details-box .content-box .volunteer-list .user-name {
+  float: left;
+  font-size: 0.35rem;
+  line-height: 1rem;
+  margin-left: 0.2rem;
+  width: 2.5rem;
+  height: 1rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.details-box .content-box .volunteer-list .right {
+  font-size: 0.3rem;
+  line-height: 1rem;
+}
+.details-box .content-box .volunteer-list .right span {
+  color: #ff7070;
+}
+.submit-btn {
+  background: #ff7070;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.35rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  margin-top: 0.3rem;
+  margin-top: 0.5rem;
+}
+.submit-active-btn {
+  background: #ccc;
+  pointer-events: none;
+}
+/*# sourceMappingURL=details.css.map */

@@ -1,0 +1,87 @@
+.bg-banner{
+  width: 100%;
+}
+.bg-banner .banner-img{
+  width: 100%;
+  display: block;
+}
+.bg-banner .bg-list{
+  position: relative;
+  height: 5rem;
+}
+.bg-banner .bg-list img{
+  height: 100%;
+  object-fit: cover;
+}
+.flex{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.justify-content{
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+
+.mian-box{
+  background: #fff;
+  padding: 0.3rem;
+  margin-bottom: 0.2rem;
+  .name-txt{
+    font-size: 0.35rem;
+  }
+  .derr-box{
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+    .flex();
+    .justify-content();
+    .place-name{
+      font-size: 0.25rem;
+      line-height: 0.5rem;
+    }
+    .navigation{
+      font-size: 0.3rem;
+      background: url("../../image/icon-qzl.png") no-repeat;
+      background-size: 0.5rem;
+      line-height: 0.5rem;
+      padding-left: 0.6rem;
+    }
+    .contact{
+      font-size: 0.3rem;
+      background: url("../../image/icon-lxwm.png") no-repeat;
+      background-size: 0.5rem;
+      line-height: 0.5rem;
+      padding-left: 0.6rem;
+      display: block;
+      text-decoration: none;
+      color: #222;
+    }
+  }
+  .title-box{
+    border-bottom: solid 1px #ccc;
+    height: 0.2rem;
+    .flex();
+    .title-name{
+      background:url("../../image/icon-title.png") no-repeat left center,#fff;
+      background-size: 0.3rem;
+      font-size: 0.35rem;
+      height: 0.4rem;
+      line-height: 0.4rem;
+      padding-left: 0.5rem;
+      padding-right: 0.2rem;
+    }
+  }
+  .content-txt{
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    margin-top: 0.5rem;
+  }
+  .img-box{
+    margin-top: 0.5rem;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+}

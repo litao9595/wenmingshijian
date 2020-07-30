@@ -1,0 +1,178 @@
+.bg-banner{
+  width: 100%;
+}
+.bg-banner .banner-img{
+  width: 100%;
+  display: block;
+}
+.bg-banner .bg-list{
+  position: relative;
+}
+.bg-banner .bg-list .statistics-data{
+  position: absolute;
+  width: 100%;
+  left: 0rem;
+  top:50%;
+  transform: translate(0,-50%);
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0rem 0.5rem;
+}
+.bg-banner .bg-list .statistics-data li{
+  text-align: center;
+  color: #fff;
+  border: solid 1px #fff;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 1.8rem;
+}
+.bg-banner .bg-list .statistics-data li p{
+  font-size: 0.3rem;
+  margin-top: 0.5rem;
+}
+.bg-banner .bg-list .statistics-data li div{
+  font-size: 0.25rem;
+}
+.column-box{
+  padding: 0rem 0.3rem;
+  margin-top: -0.9rem;
+}
+.column-box .my-swipe{
+  background: #fff;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.column-box .column-list{
+  overflow: hidden;
+  padding: 0.2rem;
+  min-height: 3rem;
+}
+.column-box .column-list li{
+  float: left;
+  text-align: center;
+  margin-right: 0.05rem;
+  width: 1.25rem;
+  margin-bottom: 0.2rem;
+}
+.column-box .column-list li:nth-child(5n){
+  margin-right: 0rem;
+}
+.column-box .column-list li div{
+  width: 1rem;
+  height: 1rem;
+  background: #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+}
+.column-box .column-list li div img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.column-box .column-list li p{
+  font-size: 0.22rem;
+}
+.new-box{
+  margin-top: 0.2rem;
+  padding: 0.2rem;
+  background: #fff;
+}
+.new-box .new-list{
+  border-bottom: solid 1px #ccc;
+  padding: 0.2rem 0rem;
+}
+.new-box .new-list .fot-box{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  margin-top: 0.3rem;
+}
+.new-box .new-list .fot-box .left{
+  font-size: 0.2rem;
+  color: #999;
+  line-height: 0.3rem;
+}
+.new-box .new-list .fot-box .left span{
+  margin-right: 0.1rem;
+}
+.new-box .new-list .fot-box .right div{
+  font-size: 0.2rem;
+  border: solid 1px #ccc;
+  padding: 0rem 0.1rem;
+  border-radius: 0.1rem;
+}
+.new-box .new-list .fot-box .right div i{
+  line-height: 0.3rem;
+}
+.new-box .new-list .txt-box{
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+}
+.new-box .new-list .big-picture{
+  margin-top: 0.2rem;
+}
+.new-box .new-list .big-picture img{
+  width: 100%;
+  display: block;
+}
+.new-box .new-list .three-figures{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.new-box .new-list .three-figures li{
+  width: 2.3rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.new-box .new-list .three-figures img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.new-box .new-list .about-box{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.new-box .new-list .about-box .left{
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  height: 1.2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  width: 4.5rem;
+}
+.new-box .new-list .about-box .right{
+  width: 2.3rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.new-box .new-list .about-box .right img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

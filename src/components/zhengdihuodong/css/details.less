@@ -1,0 +1,157 @@
+@bgcolro:#f5f5f5;
+.border-radius(@val:0.2rem){
+  border-radius: @val;
+  -webkit-border-radius: @val;
+  -moz-border-radius: @val;
+}
+.box-shadow(@color:#ccc,@size:0.1rem){
+  box-shadow: 0rem 0rem @size @color;
+  -webkit-box-shadow: 0rem 0rem @size @color;
+  -moz-box-shadow: 0rem 0rem @size @color;
+}
+.display-felx{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.justify-content(@space:space-between){
+  justify-content:@space;
+  -webkit-justify-content:@space;
+  -moz-justify-content:@space;
+}
+.details-box{
+  background:url("../../image/fwhd-banner.png") no-repeat left top,@bgcolro;
+  background-size: 100% auto;
+  padding: 3.5rem 0.3rem 0.3rem 0.3rem;
+  .content-box{
+    background: #fff;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    .border-radius(0.2rem);
+    .title-box{
+      .display-felx();
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      .left{
+        font-size: 0.35rem;
+      }
+      .right{
+        font-size: 0.25rem;
+        margin-left: 0.3rem;
+        background: #ecf2ff;
+        color: #566eff;
+        padding: 0.05rem 0.2rem;
+        .border-radius(0.2rem);
+      }
+    }
+    .text-box{
+      font-size: 0.3rem;
+      line-height: 0.5rem;
+      span{
+        color: #ff8181;
+      }
+    }
+    .title-2{
+      font-size: 0.35rem;
+      box-sizing: border-box;
+      padding-left:0.2rem;
+      border-left: solid 0.1rem #ff8181;
+      line-height: 0.4rem;
+      overflow: hidden;
+      span{display: block; float: left}
+      i{
+        display: block;
+        font-style: normal;
+        float: right;
+        color: #999999;
+        background: url("../../image/see.png") no-repeat right center;
+        background-size: auto 0.2rem;
+        padding-right: 0.4rem;
+      }
+    }
+    .biaoqian{
+      overflow: hidden;
+      padding-top: 0.2rem;
+      li{
+        float: left;
+        font-size: 0.25rem;
+        line-height: 0.5rem;
+        background: #668eff;
+        padding: 0rem 0.2rem;
+        .border-radius(0.1rem);
+        color: #fff;
+        margin-right: 0.2rem;
+      }
+    }
+    .volunteer-list{
+      padding: 0.2rem;
+      .display-felx();
+      .justify-content(space-between);
+      .avatar-box{
+        float: left;
+        width: 1rem;
+        height: 1rem;
+        background: url("../../image/avatar-bg.png") no-repeat;
+        background-size: 100% 100%;
+      }
+      .user-name{
+        float: left;
+        font-size: 0.35rem;
+        line-height: 1rem;
+        margin-left: 0.2rem;
+        width: 2.5rem;
+        height:1rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+      }
+      .right{
+        font-size: 0.3rem;
+        line-height: 1rem;
+        span{color: #ff7070;}
+      }
+    }
+  }
+}
+.submit-btn{
+  background: #ff7070;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.35rem;
+  .border-radius(0.4rem);
+  margin-top: 0.3rem;
+  margin-top: 0.5rem;
+}
+.submit-active-btn{
+  background: #ccc;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

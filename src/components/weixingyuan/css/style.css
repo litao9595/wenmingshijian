@@ -1,0 +1,193 @@
+.display-felx {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.weixingyuan-box {
+  background: url("../../image/wxy-bg.png") no-repeat, #f5f5f5;
+  background-size: 100% auto;
+  position: fixed;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 3rem;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.weixingyuan-box .wxy-main {
+  padding: 0.3rem;
+}
+.weixingyuan-box .wxy-main .wxy-content {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.weixingyuan-box .wxy-main .wxy-content .list-box {
+  overflow: hidden;
+}
+.weixingyuan-box .wxy-main .wxy-content .list-box li {
+  padding: 0.2rem;
+  box-sizing: border-box;
+  float: left;
+  width: 3.1rem;
+  overflow: hidden;
+  margin-bottom: 0.3rem;
+  box-shadow: 0rem 0rem 0.1rem #ccc;
+  -webkit-box-shadow: 0rem 0rem 0.1rem #ccc;
+  -moz-box-shadow: 0rem 0rem 0.1rem #ccc;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.weixingyuan-box .wxy-main .wxy-content .list-box li .img-box {
+  height: 3rem;
+  overflow: hidden;
+}
+.weixingyuan-box .wxy-main .wxy-content .list-box li .img-box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.weixingyuan-box .wxy-main .wxy-content .list-box li .txt {
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  height: 0.4rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-top: 0.1rem;
+}
+.weixingyuan-box .wxy-main .wxy-content .list-box li:nth-child(2n-1) {
+  margin-right: 0.3rem;
+}
+/*详情*/
+.diangdan-box {
+  background: #f5f5f5;
+}
+.diangdan-box .diangdan-main {
+  padding: 0.3rem;
+}
+.diangdan-box .diangdan-main .diangdan-top {
+  background: #fff;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .img-box img {
+  display: block;
+  width: 100%;
+}
+.diangdan-box .diangdan-main .diangdan-top .txt-box {
+  padding: 0.2rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .title-box {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  margin-bottom: 0.2rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .title-box .left {
+  font-size: 0.35rem;
+  margin-right: 0.3rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .title-box .right {
+  font-size: 0.2rem;
+  color: #999;
+}
+.diangdan-box .diangdan-main .diangdan-top .title-box .right .icon-box {
+  background: #f5f5f5;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  line-height: 0.3rem;
+  height: 0.3rem;
+  padding: 0rem 0.2rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .title-box .right .icon-box .zan {
+  font-size: 0.3rem;
+  float: left;
+}
+.diangdan-box .diangdan-main .diangdan-top .title-box .right .icon-box span {
+  float: left;
+  margin-left: 0.1rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .text-box {
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .information-box {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+.diangdan-box .diangdan-main .diangdan-top .information-box .information-txt {
+  width: calc(100% - 1.5rem);
+  box-sizing: border-box;
+  padding-right: 0.2rem;
+}
+.diangdan-box .diangdan-main .diangdan-top .information-box .btn-box {
+  font-size: 0.27rem;
+  color: #fff;
+  line-height: 0.6rem;
+  text-align: center;
+}
+.diangdan-box .diangdan-main .diangdan-top .information-box .btn-box .taotao-btn {
+  background: #619af0;
+  width: 1.5rem;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  display: block;
+  color: #fff;
+}
+.diangdan-box .diangdan-main .diangdan-top .information-box .btn-box .phone-btn {
+  background: #62d2af;
+  width: 1.5rem;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  margin-top: 0.2rem;
+  display: block;
+  color: #fff;
+}
+.diangdan-box .diangdan-main .diangdan-bottom {
+  background: #fff;
+  margin: 0.3rem 0rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.diangdan-box .diangdan-main .diangdan-bottom .title {
+  font-size: 0.35rem;
+}
+.diangdan-box .diangdan-main .diangdan-bottom .text {
+  font-size: 0.3rem;
+}
+.diangdan-box .diangdan-main .submit-btn {
+  background: #ff7070;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.35rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+}
+.diangdan-box .diangdan-main .submit-active-btn {
+  background: #ccc;
+  pointer-events: none;
+}
+/*# sourceMappingURL=style.css.map */

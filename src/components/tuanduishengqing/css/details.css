@@ -1,0 +1,68 @@
+.banner-box{
+  background: url("../../zhiyuanzheshengqing/image/banner.png") no-repeat;
+  background-size: cover;
+  height: 4rem;
+}
+.main-box{
+  padding: 0.3rem;
+}
+.main-box .head-box{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  box-shadow: 0rem 0rem 0.1rem #ccc;
+  -webkit-box-shadow: 0rem 0rem 0.1rem #ccc;
+  -moz-box-shadow: 0rem 0rem 0.1rem #ccc;
+}
+.main-box .head-box .left{
+  width: 2rem;
+  height: 2rem;
+  background: url("../../image/02.png") no-repeat;
+  background-size: 100% 100%;
+}
+.main-box .head-box .right{
+  width: calc(100% - 2.2rem);
+  font-size: 0.35rem;
+}
+.main-box .content-box{
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  box-shadow: 0rem 0rem 0.1rem #ccc;
+  -webkit-box-shadow: 0rem 0rem 0.1rem #ccc;
+  -moz-box-shadow: 0rem 0rem 0.1rem #ccc;
+  margin-top: 0.3rem;
+}
+.main-box .content-box p{
+  font-size: 0.3rem;
+  line-height: 0.6rem;
+}
+.main-box .submit-btn{
+  background: #ff7070;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.35rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  margin-top: 0.3rem;
+  margin-top: 0.5rem;
+}
+.main-box .submit-active-btn{
+  pointer-events: none;
+  background: #ccc;
+}

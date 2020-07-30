@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>易达</title>
+    <script>
+      !(function(win, doc){
+        function setFontSize() {
+          // 获取window 宽度
+          // zepto实现 $(window).width()就是这么干的
+          var winWidth =  window.innerWidth || window.screen.availWidth||document.body.clientWidth||405;
+          doc.documentElement.style.fontSize = (winWidth /750) * 100 + 'px' ;
+        }
+        var evt = 'onorientationchange' in win ? 'orientationchange' : 'resize';
+        var timer = null;
+        win.addEventListener(evt, function () {
+          clearTimeout(timer);
+          timer = setTimeout(setFontSize, 300);
+        }, false);
+        win.addEventListener("pageshow", function(e) {
+          if (e.persisted) {
+            clearTimeout(timer);
+
+            timer = setTimeout(setFontSize, 300);
+          }
+        }, false);
+        //初始化
+        setFontSize();
+      }(window, document));
+    </script>
+    <!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wry2MZK36yxGmYI79oSpvf9bCMVpBk7h"></script>-->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

@@ -1,0 +1,187 @@
+.display-felx {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.list-box {
+  background: #f5f5f5;
+  padding: 0.3rem;
+  overflow: hidden;
+}
+.list-box li:nth-child(2n) {
+  float: right;
+}
+.list-box li {
+  float: left;
+  width: 3.3rem;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 0.3rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  box-shadow: 0rem 0rem 0.1rem #ccc;
+  -webkit-box-shadow: 0rem 0rem 0.1rem #ccc;
+  -moz-box-shadow: 0rem 0rem 0.1rem #ccc;
+}
+.list-box li .cover-img {
+  height: 2rem;
+}
+.list-box li .cover-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.list-box li .list-txt-box {
+  padding: 0.2rem;
+}
+.list-box li .team-txt {
+  font-size: 0.35rem;
+  text-align: center;
+  overflow: hidden;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.list-box li .location-box {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  margin-top: 0.2rem;
+}
+.list-box li .location-box .left {
+  width: 0.3rem;
+  height: 0.4rem;
+  background: url("../../image/location.png") no-repeat;
+  background-size: 100% auto;
+}
+.list-box li .location-box .right {
+  font-size: 0.25rem;
+  color: #ccc;
+  margin-left: 0.1rem;
+}
+/*团队风采详情*/
+.team-main {
+  padding: 0.3rem;
+  background: url("../../image/01.png") no-repeat, #f5f5f5;
+  background-size: 100% auto;
+  padding-top: 4rem;
+}
+.team-main .content-box {
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  background: #fff;
+  padding: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.team-main .content-box .head-box {
+  overflow: hidden;
+}
+.team-main .content-box .head-box .left {
+  float: left;
+  width: 2rem;
+  height: 2rem;
+}
+.team-main .content-box .head-box .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.team-main .content-box .head-box .right {
+  float: right;
+  width: calc(100% - 2.2rem);
+}
+.team-main .content-box .head-box .right .head-title {
+  font-size: 0.35rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-height: 0.4rem;
+  height: 0.4rem;
+}
+.team-main .content-box .head-box .right .duration-txt {
+  font-size: 0.3rem;
+  margin-top: 0.4rem;
+}
+.team-main .content-box .text-txt {
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+}
+.team-main .content-box .icon-title {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  line-height: 0.4rem;
+}
+.team-main .content-box .icon-title .left {
+  font-size: 0.35rem;
+}
+.team-main .content-box .icon-title .left img {
+  display: block;
+  float: left;
+  height: 0.4rem;
+  margin-right: 0.1rem;
+}
+.team-main .content-box .icon-title .right {
+  font-size: 0.25rem;
+  color: #999999;
+  padding-right: 0.4rem;
+  background: url("../../image/see.png") no-repeat right center;
+  background-size: 0.3rem auto;
+}
+.team-main .content-box .describe-txt {
+  font-size: 0.3rem;
+  padding: 0.2rem 0rem;
+}
+.team-main .content-box .volunteer-list {
+  padding: 0.2rem;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+.team-main .content-box .volunteer-list .avatar-box {
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  background: url("../../image/avatar-bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.team-main .content-box .volunteer-list .user-name {
+  float: left;
+  font-size: 0.35rem;
+  line-height: 1rem;
+  margin-left: 0.2rem;
+}
+.team-main .content-box .volunteer-list .right {
+  font-size: 0.3rem;
+  line-height: 1rem;
+}
+.team-main .content-box .volunteer-list .right span {
+  color: #ff7070;
+}
+.team-main .join-us img {
+  display: block;
+  width: 1rem;
+  margin: 0 auto;
+}
+.team-main .join-us p {
+  font-size: 0.25rem;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

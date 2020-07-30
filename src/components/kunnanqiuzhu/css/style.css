@@ -1,0 +1,293 @@
+.main-box{
+  background: url("../../image/knqz-banner.png") no-repeat,#f5f5f5;
+  background-size: 100% auto;
+  padding-top: 3rem;
+}
+.main-box .add-seek-help{
+  position: fixed;
+  right: 0.5rem;
+  top: 0.5rem;
+  z-index: 10;
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+  background: #ccc;
+  color: #fff;
+  padding: 0rem 0.1rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+}
+.main-box .content-box{
+  padding: 0.3rem;
+}
+.main-box .content-box .list-box li{
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  background: #fff;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+.main-box .content-box .list-box li .left{
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  background: url("../../image/img-bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.main-box .content-box .list-box li .left img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-box .content-box .list-box li .right{
+  width: calc(100% - 2.2rem);
+}
+.main-box .content-box .list-box li .right .title{
+  font-size: 0.35rem;
+  font-weight: bold;
+  line-height: 0.4rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.3rem;
+}
+.main-box .content-box .list-box li .right .title span{
+  font-size: 0.2rem;
+  color: #566eff;
+  background: #ecf2ff;
+  padding: 0.1rem 0.2rem;
+  margin-left: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.main-box .content-box .list-box li .right .title .complete{
+  color: #f97e7e;
+  background: #ffecec;
+}
+.main-box .content-box .list-box li .right .txt{
+  font-size: 0.3rem;
+  color: #4d4d4d;
+}
+/*详情*/
+.detalis-box{
+  background: #f5f5f5;
+  padding: 0.3rem;
+}
+.detalis-box .detisl-content{
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+.detalis-box .detisl-content .title{
+  font-size: 0.35rem;
+  font-weight: bold;
+  line-height: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.detalis-box .detisl-content .title span{
+  font-size: 0.2rem;
+  color: #566eff;
+  background: #ecf2ff;
+  padding: 0.1rem 0.2rem;
+  margin-left: 0.2rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+}
+.detalis-box .detisl-content .title .complete{
+  color: #f97e7e;
+  background: #ffecec;
+}
+.detalis-box .detisl-content .txt-box{
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+}
+.detalis-box .detisl-content .map-box{
+  height: 5rem;
+  background: #ccc;
+  margin-top: 0.3rem;
+}
+.detalis-box .detisl-content .title-2{
+  font-size: 0.3rem;
+  font-weight: bold;
+  border-left: solid 0.1rem #ff8a8a;
+  padding-left: 0.15rem;
+}
+.detalis-box .detisl-content .details-img{
+  margin-top: 0.3rem;
+  font-size: 0.3rem;
+}
+.detalis-box .detisl-content .details-img img{
+  display: block;
+  width: 100%;
+}
+.detalis-box .detisl-content .details-img video{
+  display: block;
+  width: 100%;
+}
+.submit-btn{
+  background: #ff7070;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.35rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+}
+/*发起求助*/
+.seek-help-box{
+  background: url("../../image/qzzx-banner.png") no-repeat,#f5f5f5;
+  background-size: 100% auto;
+  padding-top: 3rem;
+}
+.seek-help-box .seek-help-main{
+  padding: 0.3rem;
+}
+.seek-help-box .seek-help-main .help-content-box{
+  background: #fff;
+  overflow: hidden;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  margin-bottom: 0.3rem;
+  padding: 0.3rem;
+}
+.seek-help-box .seek-help-main .help-content-box .input-list{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -moz-flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  border-bottom: solid 1px #e6e6e6;
+}
+.seek-help-box .seek-help-main .help-content-box .input-list .left{
+  font-size: 0.3rem;
+  line-height: 0.8rem;
+}
+.seek-help-box .seek-help-main .help-content-box .input-list .left i{
+  color: #ff6868;
+}
+.seek-help-box .seek-help-main .help-content-box .input-list .right{
+  font-size: 0.3rem;
+  width: calc(100% - 2.8rem);
+  height: 0.8rem;
+  line-height: 0.8rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.seek-help-box .seek-help-main .help-content-box .input-list .right input{
+  display: block;
+  height: 0.8rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.3rem;
+  border: none;
+  outline: none;
+  text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background: none;
+}
+.seek-help-box .seek-help-main .help-content-box .input-list .right-selct{
+  background: url('../../image/dayu.png') no-repeat right center;
+  background-size: 0.3rem;
+  padding-right: 0.3rem;
+}
+.seek-help-box .seek-help-main .help-content-box .textarea-list{
+  font-size: 0.3rem;
+}
+.seek-help-box .seek-help-main .help-content-box .textarea-list .top{
+  line-height: 0.8rem;
+}
+.seek-help-box .seek-help-main .help-content-box .textarea-list .top i{
+  color: #ff6868;
+}
+.seek-help-box .seek-help-main .help-content-box .textarea-list .bottom textarea{
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid 1px #e8e8e8;
+  padding: 0.3rem;
+  height: 2.2rem;
+  font-size: 0.3rem;
+}
+.seek-help-box .seek-help-main .help-content-box .switch-box{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  font-size: 0.3rem;
+  margin-top: 0.3rem;
+}
+.seek-help-box .seek-help-main .help-content-box .file-box .top{
+  font-size: 0.3rem;
+  line-height: 0.8rem;
+}
+.seek-help-box .seek-help-main .help-content-box .file-box .bottom{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -moz-flex;
+}
+.seek-help-box .seek-help-main .help-content-box .file-box .bottom li{
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  margin-right: 0.3rem;
+}
+.seek-help-box .seek-help-main .help-content-box .file-box .bottom li .cols-btn{
+  font-size: 0.4rem;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  background: #000;
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+}
+.seek-help-box .seek-help-main .help-content-box .file-box .bottom li img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.seek-help-box .seek-help-main .help-content-box .file-box .bottom .file-btn{
+  background: url('../../addActivity/image/file.png') no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.seek-help-box .seek-help-main .help-content-box .file-box .bottom .file-btn .van-uploader{
+  opacity: 0;
+}
+.submit-btn{
+  background: #ff7070;
+  line-height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.35rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+}
+
